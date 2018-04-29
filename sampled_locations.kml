@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Style id="examplePolyStyle">
+    <PolyStyle>
+      <color>FF32CD32</color>
+    </PolyStyle>
+  </Style>
+<Placemark id="Lyon">
+        <Style>
+            <LineStyle>
+            <color>FF0000FF</color>
+            <width>8</width>
+            </LineStyle>
+        </Style>
+         <LineString>
+            <coordinates>-118.28191,34.032433,0
+		-118.287892,34.024250,0</coordinates>
+         </LineString>
+</Placemark>
+<Placemark id="Fig/Jeff">
+        <Style>
+            <LineStyle>
+            <color>FF0000FF</color>
+            <width>8</width>
+            </LineStyle>
+        </Style>
+         <LineString>
+            <coordinates>-118.28191,34.032433,0
+		-118.280193,34.021898,0</coordinates>
+         </LineString>
+</Placemark>
+<Placemark id="Cromwell">
+        <Style>
+            <LineStyle>
+            <color>FF0000FF</color>
+            <width>8</width>
+            </LineStyle>
+        </Style>
+         <LineString>
+            <coordinates>-118.28191,34.032433,0
+		-118.287944,34.022463,0</coordinates>
+         </LineString>
+</Placemark>
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28191,34.032433</coordinates></Point>
+</Placemark>
+<Placemark><name>Doheny Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284455,34.020582</coordinates></Point>
+</Placemark>
+<Placemark><name>SGM</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289171,34.021945</coordinates></Point>
+</Placemark>
+<Placemark><name>Cromwell Field</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287944,34.022463</coordinates></Point>
+</Placemark>
+<Placemark><name>Lyon Center</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287892,34.024250</coordinates></Point>
+</Placemark>
+<Placemark><name>Vermont-Jefferson</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291381,34.025360</coordinates></Point>
+</Placemark>
+<Placemark><name>Vermont-Exposition</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291348,34.018455</coordinates></Point>
+</Placemark>
+<Placemark><name>Figueroa-Exposition</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282585,34.018499</coordinates></Point>
+</Placemark>
+<Placemark><name>Figueroa-Jefferson</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.280193,34.021898</coordinates></Point>
+</Placemark>
+  <Placemark>
+    <name>hollow box</name>
+    <styleUrl>#examplePolyStyle</styleUrl>
+    <Polygon>
+      <extrude>1</extrude>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -118.291348,34.018455
+            -118.291381,34.02536
+            -118.28191,34.032433
+            -118.280193,34.021898
+            -118.282585,34.018499
+            -118.291348,34.018455
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+       <innerBoundaryIs>
+            <LinearRing>
+               <coordinates>  
+                -118.291348,34.018455
+               -118.291381,34.02536
+               -118.28191,34.032433
+               -118.280193,34.021898
+               -118.282585,34.018499
+               -118.291348,34.018455
+  </coordinates>
+     </LinearRing>
+  </innerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</Document></kml>
